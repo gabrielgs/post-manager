@@ -1,0 +1,39 @@
+.footer {
+  padding: 1.5rem 10rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.btn-primary-outline {
+  background-color: #fff;
+  border: 1px solid #3A77D1;
+  color: #3A77D1;
+  transition: all .3s ease-in-out;
+}
+
+.btn-primary-outline:hover {
+  border: 1px solid #2B65BA;
+  color: #2B65BA;
+}
+
+.btn-primary {
+  background-color: #3A77D1;
+  border: none;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #2B65BA;
+}

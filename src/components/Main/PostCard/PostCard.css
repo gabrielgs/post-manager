@@ -1,6 +1,6 @@
 .post-card {
   border-radius: 8px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   padding: 1rem 1rem;
   margin-top: 46px;
 }
@@ -25,7 +25,7 @@
   border: 2px solid #A6ABB6;
   border-radius: 6px;
   font-size: 1rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.75rem 0.75rem;
   width: 73%;
 }
 
@@ -39,9 +39,9 @@
   border: none;
   border-radius: 10px;
   background-color: #3A77D1;
-  padding: 0 1.5rem;
+  padding: 0rem 1.5rem;
   font-weight: 700;
-  height: 34px;
+  height: 37px;
   transition: all .2s ease-in-out;
 }
 
