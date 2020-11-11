@@ -1,0 +1,21 @@
+.header {
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.header__title {
+  color: #353434;
+}
+
+.header__title span {
+  margin-left: 12px;
+}
+
+.header__title::before {
+  content: "";
+  background: #6FC284;
+  width: 4px;
+  height: 61%;
+  position: absolute;
+  top: 8px;
+}
