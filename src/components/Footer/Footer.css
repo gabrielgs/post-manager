@@ -1,10 +1,11 @@
 .footer {
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -19,7 +20,9 @@
   background-color: #fff;
   border: 1px solid #3A77D1;
   color: #3A77D1;
+  order: 2;
   transition: all .3s ease-in-out;
+  width: 100%;
 }
 
 .btn-primary-outline:hover {
@@ -31,9 +34,34 @@
   background-color: #3A77D1;
   border: none;
   color: #fff;
+  width: 100%;
+  order: 1;
+  margin-bottom: 1rem;
   transition: all .3s ease-in-out;
 }
 
 .btn-primary:hover {
   background-color: #2B65BA;
+}
+
+@media (min-width: 768px) {
+  .btn-primary, .btn-primary-outline {
+    width: auto;
+  }
+
+  .btn-primary-outline {
+    order: 1;
+  }
+
+  .btn-primary {
+    order: 2;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding-left: 4.8%;
+    padding-right: 4.8%;
+  }
 }
