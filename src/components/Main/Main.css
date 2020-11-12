@@ -4,3 +4,10 @@
   flex-wrap: wrap;
   padding: 0 1.5rem;
 }
+
+@media (min-width: 1024px) {
+  .main {
+    padding-left: 4.8%;
+    padding-right: 4.8%;
+  }
+}
