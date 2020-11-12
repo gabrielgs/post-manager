@@ -1,5 +1,5 @@
 .header {
-  padding: 1.5rem 10rem 12px;
+  padding: 1.5rem 1.5rem 12px;
   position: relative;
 }
 
@@ -18,4 +18,11 @@
   height: 33%;
   position: absolute;
   top: 29px;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
 }
